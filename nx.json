@@ -11,9 +11,5 @@
       "options": { "cacheableOperations": ["build", "lint", "test", "e2e"] }
     }
   },
-  "projects": {
-    "nx-firebase": { "tags": [] },
-    "nx-firebase-e2e": { "tags": [], "implicitDependencies": ["nx-firebase"] }
-  },
   "workspaceLayout": { "appsDir": "e2e", "libsDir": "packages" }
 }
